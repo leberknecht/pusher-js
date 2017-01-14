@@ -319,7 +319,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return document;
 	    },
 	    getProtocol: function () {
-	        return this.getDocument().location.protocol;
+	        return document.location.protocol;
 	    },
 	    getAuthorizers: function () {
 	        return { ajax: xhr_auth_1["default"], jsonp: jsonp_auth_1["default"] };
